@@ -1,0 +1,85 @@
+body{
+	background-color:#fbf7e4;
+	font-size:200%;
+}
+
+header{
+	background-color:#a27250;
+}
+section>form{
+	display:inline;
+}
+section>form>input{
+	position:relative;
+	width:40%;
+	height:40%;
+	margin-left:7%;
+	margin-bottom:7%;
+	border-radius:0.5em;
+	background:none;
+	font-size : 200%;
+	color: #a27250;
+	border-style: solid;
+	border-color: #a27250;
+	border-width: thick;
+}
+
+#menu{
+	position : fixed;
+	bottom:5%;
+}
+
+
+#schCommit{
+	background: url("img/search.png")no-repeat;
+	border: none;
+    width: 24px;
+    height: 24px;
+	background-size: cover;
+    cursor: pointer;
+}
+
+#home{
+	background: url("img/home.png")no-repeat;
+	border: none;
+    width: 22px;
+    height: 22px;
+	background-position: center;
+    cursor: pointer;
+}
+
+#goToMain{
+	background: url("img/search.png")no-repeat;
+	border: none;
+    width: 24px;
+    height: 24px;
+	background-size: cover;
+    cursor: pointer;	
+}
+
+#data{
+	background: url("img/graph.png")no-repeat;
+	border: none;
+    width: 24px;
+    height: 24px;
+	background-size: cover;
+    cursor: pointer;	
+}
+
+#refresh{
+	background: url("img/refresh.png")no-repeat;
+	border: none;
+    width: 24px;
+    height: 24px;
+	background-size: cover;
+    cursor: pointer;	
+}
+
+#open{
+	background: url("img/plus.png")no-repeat;
+	border: none;
+    width: 24px;
+    height: 24px;
+	background-size: cover;
+    cursor: pointer;	
+}

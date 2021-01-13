@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>로그인</title>
+	<style>@import url(login.css);</style>
+</head>
+<script>
+	function btnNullExcption(){
+		var btn = document.getElementsByClassName("createbtn");
+		if (id_name.value==""||password.value=="")
+			alert("값을 입력해 주세요");
+	}
+	function getString(){
+		if (id_name.value==""||password.value=="")
+			alert("값을 입력해 주세요");
+		else{
+			//var id_name = getElementById("id_name");
+			John.getString(id_name.value);
+		}
+	}
+</script>
+<body>
+	<img src="img/logo.jpg" style="width:360px; height:auto"></img>
+	<div id="fail">id나 비밀번호가 틀렸습니다.</div>
+	<form name="login" method="post" action="login.php">
+		사용자 ID:<input type="text" size="15" value="" name="id_name">
+		<p>비밀번호:<input type="password" size="15" value="" name="password"></p>
+		<input type="submit" value="로그인" class="createbtn">
+	</form>
+	<form name="register" method="post" action="registration.php" ><br>
+		<input type="submit" value="회원가입" class="createbtn">
+	</form>
+	
+
+</body>
+</html>

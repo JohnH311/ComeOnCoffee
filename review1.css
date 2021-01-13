@@ -1,0 +1,11 @@
+#store{
+	border-style:solid;
+	border-width:1px;
+	background-color:white;
+}
+#rowname{
+	font-size:15px;
+}
+#rowname:focus{
+	outline:none;
+}
